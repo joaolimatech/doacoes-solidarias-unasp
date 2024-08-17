@@ -23,6 +23,18 @@ public class Exercicios {
             System.out.printf("Errado! Existem %d numeros impares inteiros nesse intervalo", certaRepostaImpares);
         }
 
+        System.out.printf("%nAfinal, você sabe a diferença entre Inteiro e Decimal?%n");
+        String resp = scanner.nextLine().strip().toLowerCase();
+        System.out.println(resp);
+        if (resp.equals("nao") || resp.equals("não")){
+        System.out.println("Explicaçao blablabla");
+        } else {
+            System.out.println("Quer uma revisao? ");
+            String resp1 = scanner.nextLine().strip().toLowerCase();
+            if (resp1.equals("sim")){System.out.println("lbalba explica");
+            }else {System.exit(0);}
+        }
+
 
     }
 }
