@@ -123,7 +123,7 @@ public class Main{
             op = Integer.parseInt(JOptionPane.showInputDialog(
                     "                ESTOQUE ONG UNASP\n\n\n"+
                             "                        Menu Principal \n\n" +
-                            "1  - Cadastrar produto \n"+ "" +
+                            "1  - Cadastrar o produto \n"+ "" +
                             "2  - Entradas de produtos \n"+
                             "3  - Saidas de produtos \n" +
                             "4  - Consulta de produtos (Informando código)\n" +
