@@ -132,7 +132,7 @@ public class Main{
                             "7  - Alterar quantidade\n"+
                             "8  - Comunidades\n"+
 
-                            /*"999 - Cadastro automático de 7 produtos para teste\n"+*/
+                            "999 - Cadastro automático de 7 produtos para teste\n"+
                             "0 - Sair do Sistema"));
 
             switch (op) {
